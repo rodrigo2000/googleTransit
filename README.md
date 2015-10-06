@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-GoogleTransit UI
-================
+GoogleTransit UI (GTUI)
+=======================
 
 Sistema con interface visual para poder usar generar archivos Data Feed para GoogleTransit.
 
@@ -14,7 +14,7 @@ Este sistema sirve si usted proporciona un servicio de transporte que está abie
 ¿Cómo es el proceso sin GoogleTransit UI?
 -----------------------------------------
 
-1.  Generar una fuente de datos de acuerdo al <a herf="http://developers.google.com/transit/gtfs/?hl=en">General Transit Feed Specification (GTFS)</a> y al [Documento de Buenas Prácticas]
+1.  Generar una fuente de datos de acuerdo al [General Transit Feed Specification (GTFS)] y al [Documento de Buenas Prácticas]
 2.  Validar la alimentación mediante el [Feed Validator].
 3.  Inspeccione la alimentación en el [Visor de horarios].
 4.  Genera un archivo ZIP y nómbralo como zip google\_transit.zip.
@@ -29,12 +29,13 @@ Todo esto se hace mediante archivos TXT, CSV o en el mejor de los casos, mediant
 Ventajas de usar GoogleTransit UI
 ---------------------------------
 
-Con GoogleTransit UI usted puede guardar la informaciónde forma fácil y sencilla. Incluso podría usar un teléfono celular como GPS para mejorar sus puntos.
+Con GoogleTransit UI usted puede guardar la información de forma fácil y sencilla. Incluso podría usar un teléfono celular como GPS para mejorar sus puntos de localización.
 
-GTUI genera el archivo fácil y cómodamente y permite subir de forma rápida a su servidor.
+GoogleTransit UI genera el archivo fácil y cómodamente y permite subir de forma rápida a su servidor.
 
-Con GTUI ustede puede usar herramientas de forma visual que le facilitarán la generación de las rutas.
+Con GoogleTransit UI ustede puede usar herramientas de forma visual que le facilitarán la generación de las rutas.
 
+  [General Transit Feed Specification (GTFS)]: http://developers.google.com/transit/gtfs/?hl=en
   [Documento de Buenas Prácticas]: http://maps.google.com/help/maps/mapcontent/transit/bestpractices.html
   [Feed Validator]: http://github.com/google/transitfeed/wiki/FeedValidator?hl=en
   [Visor de horarios]: http://github.com/google/transitfeed/wiki/ScheduleViewer?hl=en
