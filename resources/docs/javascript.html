@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript | Huraga Bootstrap Admin Template Documentation</title>
+		<meta name="description" content="">
+		<meta name="author" content="Walking Pixels | www.walkingpixels.com">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- jQuery Snippet Styles -->
+		<link rel='stylesheet' type='text/css' href='../css/plugins/jquery.snippet.css'>
+
+		<!-- CSS styles -->
+		<link rel='stylesheet' type='text/css' href='../css/huraga-blue.css'>
+		
+		<!-- Fav and touch icons -->
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/icons/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/icons/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../img/icons/apple-touch-icon-57-precomposed.png">
+		
+		<!-- JS Libs -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="../js/libs/jquery.js"><\/script>')</script>
+		<script src="../js/libs/modernizr.js"></script>
+		<script src="../js/libs/selectivizr.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				
+				// Tooltips
+				$('[title]').tooltip({
+					placement: 'top'
+				});
+				
+				// Tabs
+				$('.demoTabs a').click(function (e) {
+					e.preventDefault();
+					$(this).tab('show');
+				})
+
+			});
+		</script>
+		
+	</head>
+	<body>
+		
+		<!-- Full height wrapper -->
+		<div id="wrapper">
+		
+			<!-- Main page header -->
+			<header id="header" class="container">
+			
+				<!-- Main page logo -->
+				<h1><a href="login.html" class="brand">Huraga</a></h1>
+				
+				<!-- Main page headline -->
+				<p>A beautifully minimalistic admin template</p>
+				
+			</header>
+			<!-- /Main page header -->
+			
+			<!-- Main page container -->
+			<section class="container" role="main">
+			
+				<!-- Left (navigation) side -->
+				<div class="navigation-block">
+
+					<!-- Back button -->
+					<a href="../index.html" class="btn btn-block btn-large btn-alt btn-inverse"><span class="awe-chevron-left"></span> Back to template</a>
+
+					<!-- Responsive navbar button -->
+					<div class="navbar">
+						<a class="btn btn-navbar btn-block btn-large" data-toggle="collapse" data-target=".nav-collapse"><span class="awe-caret-right"></span> Javascript</a>
+					</div>
+					<!-- /Responsive navbar button -->
+
+					<!-- Main navigation -->
+					<nav class="main-navigation nav-collapse collapse" role="navigation">
+						<ul>
+							<li>
+								<a href="#">Get started</a>
+								<ul>
+									<li><a href="index.html">Introduction</a></li>
+									<li><a href="installation.html">Installation</a></li>
+									<li><a href="file-structure.html">File structure</a></li>
+									<li><a href="html-structure.html">HTML structure</a></li>
+								</ul>
+							</li>
+							<li><a href="grid.html" class="no-submenu">Grid</a></li>
+							<li><a href="data-blocks.html" class="no-submenu">Data blocks</a></li>
+							<li>
+								<a href="#">Navigation</a>
+								<ul class="nav">
+									<li><a href="navigation.html#horizontal-navigation">Top navigation</a></li>
+									<li><a href="navigation.html#vertical-navigation">Side navigation</a></li>
+									<li><a href="navigation.html#navigation-widgets">Navigation widgets</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Components</a>
+								<ul>
+									<li><a href="components.html#tables">Tables</a></li>
+									<li><a href="components.html#forms">Forms</a></li>
+									<li><a href="components.html#icons">Icons</a></li>
+								</ul>
+							</li>
+							<li class="current">
+								<a href="#">Javascript</a>
+								<ul>
+									<li><a href="javascript.html#navigation">Navigation</a></li>
+									<li><a href="javascript.html#form-gallery">Form gallery</a></li>
+									<li><a href="javascript.html#todo-list">To-do list</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Plugins</a>
+								<ul>
+									<li><a href="plugins.html#calendar">Calendar</a></li>
+									<li><a href="plugins.html#colorpicker">Color picker</a></li>
+									<li><a href="plugins.html#datepicker">Date picker</a></li>
+									<li><a href="plugins.html#datatables">Data tables</a></li>
+									<li><a href="plugins.html#modal">Extended modal</a></li>
+									<li><a href="plugins.html#file-manager">File manager</a></li>
+									<li><a href="plugins.html#form-validation">Form validation</a></li>
+									<li><a href="plugins.html#inputmask">Input mask</a></li>
+									<li><a href="plugins.html#lightbox">Lightbox</a></li>
+									<li><a href="plugins.html#popup-notifications">Pop up notifications</a></li>
+									<li><a href="plugins.html#slimscroll">Slim scroll</a></li>
+									<li><a href="plugins.html#snippets">Snippets</a></li>
+									<li><a href="plugins.html#sparklines">Sparklines</a></li>
+									<li><a href="plugins.html#tagsinput">Tags input</a></li>
+									<li><a href="plugins.html#toggle-buttons">Toggle buttons</a></li>
+									<li><a href="plugins.html#wizard">Wizard</a></li>
+									<li><a href="plugins.html#wysiwyg">WYSIWYG editors</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- /Main navigation -->
+					
+				</div>
+				<!-- Left (navigation) side -->
+				
+				<!-- Right (content) side -->
+				<div class="content-block" role="main">
+				
+					<!-- Page header -->
+					<article class="page-header">
+						<h1>Javascript</h1>
+						<p class="lead"></p>
+
+					</article>
+					<!-- /Page header -->
+
+					<!-- Grid row -->
+					<div class="row">
+
+						<!-- Data block -->
+						<article class="span12 data-block decent" id="navigation">
+							<div class="data-container">
+								<header>
+									<h2>Navigation</h2>
+								</header>
+								<section>
+									<p>Navigaton.js is simple jQuery script to handle vertical navigation behaviour.</p>
+									<p>If you need to disable vertical navigation scroll fix you can easily do so by removing a particular part of code in navigation.js file.</p>
+								</section>
+							</div>
+						</article>
+						<!-- /Data block -->
+						
+					</div>
+					<!-- /Grid row -->
+
+					<!-- Grid row -->
+					<div class="row">
+
+						<!-- Data block -->
+						<article class="span12 data-block" id="form-gallery">
+							<div class="data-container">
+								<header>
+									<h2>Form gallery</h2>
+								</header>
+								<p>jQuery gallery script to select multiple images via checkboxes.</p>
+								<section>
+<pre class="js">
+$(document).ready(function() {
+		
+	/* Highlight gallery item when clicked */
+	$('.form-gallery input[type="checkbox"]').click(function() {
+		$(this).next('a').toggleClass('active');
+	});
+	$('.form-gallery input[type="checkbox"]:checked').next('a').addClass('active');
+	
+});
+</pre>
+
+
+								</section>
+							</div>
+						</article>
+						<!-- /Data block -->
+							
+					</div>
+					<!-- /Grid row -->
+
+					<!-- Grid row -->
+					<div class="row">
+
+						<!-- Data block -->
+						<article class="span12 data-block" id="todo-list">
+							<div class="data-container">
+								<header>
+									<h2>To-do list</h2>
+								</header>
+								<section>
+									<p>When you use to-do list, do not forget to include this jQuery handler to fade out finished tasks.</p>
+<pre class="js">
+$(document).ready(function() {
+	
+	$('.todo-block input[type="checkbox"]').click(function(){
+		$(this).closest('tr').toggleClass('done');
+	});
+	$('.todo-block input[type="checkbox"]:checked').closest('tr').addClass('done');
+	
+});
+</pre>
+								</section>
+							</div>
+						</article>
+						<!-- /Data block -->
+							
+					</div>
+					<!-- /Grid row -->
+
+				</div>
+				<!-- /Right (content) side -->
+				
+			</section>
+			<!-- /Main page container -->
+		
+			<!-- Sticky footer push -->
+			<div id="push"></div>
+			
+		</div>
+		<!-- /Full height wrapper -->
+		
+		<!-- Main page footer -->
+		<footer id="footer" class="container">
+			<p>Built with love on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> by <a href="http://www.walkingpixels.com">Walking Pixels</a>.</p>
+			<ul>
+				<li><a href="#" class="">Support</a></li>
+				<li><a href="#" class="">Documentation</a></li>
+				<li><a href="#" class="">API</a></li>
+			</ul>
+			<a href="#top" class="btn btn-primary btn-flat pull-right">Top &uarr;</a>
+		</footer>
+		<!-- /Main page footer -->
+		
+		<!-- Scripts -->
+		<script src="../js/navigation.js"></script>
+
+		<!-- Bootstrap scripts -->
+		<script src="../js/bootstrap/bootstrap.min.js"></script>
+		
+		<!-- jQuery Snippet -->
+		<script src="../js/plugins/snippet/jquery.snippet.min.js"></script>
+		<script>
+			$(document).ready(function() {
+			
+				$('pre.js').snippet('javascript',{style:"rand01"});
+			
+			});
+		</script>
+
+	</body>
+</html>
